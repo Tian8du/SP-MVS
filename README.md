@@ -4,7 +4,7 @@ Triple-Branch Feature Extraction Network for Height Estimation from Multiview St
 
 ## download the WHU-TLC dataset
 
-You can get the WHU-TLC dataset from **GPCV**, the link is http://gpcv.whu.edu.cn/ or you can down load from my google drive in https://drive.google.com/drive/folders/1B0lnAxh44dioEc2DVYsLNOVfrtmu5Afc?usp=drive_link
+You can get the WHU-TLC dataset from **GPCV**, the link is (http://gpcv.whu.edu.cn/)
 To evaluate/train this method, you will need to download the required datasets. 
 * [WHU-TLC](https://github.com/WHU-GPCV/SatMVS/blob/main/WHU_TLC/readme.md) Please rename the "open_dataset" to "open_dataset_rpc".
 * [DTU (training data)](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view)
