@@ -1,13 +1,10 @@
 # TBFE-Network
 
-An Edge-enhanced Net for Multiple View Stereo in Satellite Remote Sensing You Can follow the following steps to train and predict EMVS-Net on WHU-TLC
+Triple-Branch Feature Extraction Network for Height Estimation from Multiview Stereo Satellite Images. You Can follow the following steps to train and predict TBFE-Net on WHU-TLC
 
-## Open a file
+## download the WHU-TLC dataset
 
 You can get the WHU-TLC dataset from **GPCV**, the link is http://gpcv.whu.edu.cn/ or you can down load from my google drive in https://drive.google.com/drive/folders/1B0lnAxh44dioEc2DVYsLNOVfrtmu5Afc?usp=drive_link
-
-## How to prepare the data
-
 To evaluate/train this method, you will need to download the required datasets. 
 * [WHU-TLC](https://github.com/WHU-GPCV/SatMVS/blob/main/WHU_TLC/readme.md) Please rename the "open_dataset" to "open_dataset_rpc".
 * [DTU (training data)](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view)
