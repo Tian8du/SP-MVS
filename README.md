@@ -128,3 +128,10 @@ If you want to predict your own dataset, you need to If you want to predict on y
 
 `python predict.py --model="red" --geo_model="rpc" --dataset_root=[Your dataset] --loadckpt=[A checkpoint]`
 
+
+### Acknowledgement
+This project is heavily inspired by the paper "Surface Depth Estimation From Multiview Stereo Satellite Images With Distribution Contrast Network". A significant portion of the code in this repository is derived from the implementations described in this work. I sincerely appreciate the authors' contributions to the field, which have greatly facilitated my research.
+
+If you find this work useful, please consider citing the original paper.
+
+
