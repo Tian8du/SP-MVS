@@ -4,13 +4,13 @@ Triple-Branch Feature Extraction Network for Height Estimation from Multiview St
 
 ## download the WHU-TLC dataset
 
-You can get the WHU-TLC dataset from **GPCV**, the link is (http://gpcv.whu.edu.cn/)
-To evaluate/train this method, you will need to download the required datasets. 
+You can get the WHU-TLC dataset from [**GPCV**](http://gpcv.whu.edu.cn/).
+To evaluate/train this method, you will need to download the required datasets and corresponding model weights. 
 * [WHU-TLC](https://github.com/WHU-GPCV/SatMVS/blob/main/WHU_TLC/readme.md) Please rename the "open_dataset" to "open_dataset_rpc".
 * [DTU (training data)](https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view)
 * [DTU (Depths raw)](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/cascade-stereo/CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip)
 * [DTU (testing data)](https://drive.google.com/file/d/1rX0EXlUL4prRxrRu2DgLJv2j7-tpUD4D/view?usp=sharing)
-* [Model (TBFE-UCS)](https://drive.google.com/file/d/1b8i1u69_9yMPJyqGcuTkCocyg0rVg4P3/view?usp=sharing)
+* [Model (TBFE-UCS)](https://drive.google.com/file/d/1b8i1u69_9yMPJyqGcuTkCocyg0rVg4P3/view?usp=sharing) The weight of TBFE for UCS.
 
 By default `dataset_root` in `train.py`, we will search for the datasets in these locations. You can create symbolic links to wherever the datasets were downloaded in the `data` folder
 
