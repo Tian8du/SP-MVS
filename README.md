@@ -31,8 +31,8 @@ By default `dataset_root` in `train.py`, we will search for the datasets in thes
 
 ## Environment Preparation
 ```Shell
-conda create -n DCSat python=3.7
-conda activate DCSat
+conda create -n MVS python=3.7
+conda activate MVS
 wget -c https://www.sqlite.org/2021/sqlite-autoconf-3340100.tar.gz
 tar -xvf sqlite-autoconf-3340100.tar.gz
 cd sqlite-autoconf-3340100
@@ -117,11 +117,11 @@ pip install imageio
 
 Train on WHU-TLC dataset using RPC warping:
 
-`python train.py --mode="train" --model="red" --geo_model="rpc" --dataset_root=[Your dataset root] --batch_size=1 --min_interval=[GSD(resolution of the image)] --gpu_id="0"`
+`python train.py --mode="train" --model="eucs" --geo_model="rpc" --dataset_root=[Your dataset root] --batch_size=1 --min_interval=[GSD(resolution of the image)] --gpu_id="0"`
 
 Train on WHU-TLC dataset using homography warping:
 
-`python train.py --mode="train" --model="red" --geo_model="pinhole" --dataset_root=[Your dataset root] --batch_size=1 --min_interval=[GSD(resolution of the image)] --gpu_id="0"`
+`python train.py --mode="train" --model="eucs" --geo_model="pinhole" --dataset_root=[Your dataset root] --batch_size=1 --min_interval=[GSD(resolution of the image)] --gpu_id="0"`
 
 ### Predict
 If you want to predict your own dataset, you need to If you want to predict on your own dataset, you need to first organize your dataset into a folder similar to the WHU-TLC dataset. And then run:
