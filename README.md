@@ -1,6 +1,6 @@
-# TBFE-Network
+# SP-MVS
 
-Triple-Branch Feature Extraction Network for Height Estimation from Multiview Stereo Satellite Images. You Can follow the following steps to train and predict TBFE-Net on WHU-TLC
+**SP-MVS: A Structure-Preserving Network for Edge-Aware Height Estimation from Multi-View Satellite Images**
 
 ## download the WHU-TLC dataset
 
