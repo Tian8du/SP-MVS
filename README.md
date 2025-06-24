@@ -50,9 +50,6 @@ Train on WHU-TLC dataset using RPC warping:
 
 `python train.py --mode="train" --model="eucs" --geo_model="rpc" --dataset_root=[Your dataset root] --batch_size=1 --min_interval=[GSD(resolution of the image)] --gpu_id="0"`
 
-Train on WHU-TLC dataset using homography warping:
-
-`python train.py --mode="train" --model="eucs" --geo_model="pinhole" --dataset_root=[Your dataset root] --batch_size=1 --min_interval=[GSD(resolution of the image)] --gpu_id="0"`
 
 ### Predict
 If you want to predict your own dataset, you need to If you want to predict on your own dataset, you need to first organize your dataset into a folder similar to the WHU-TLC dataset. And then run:
