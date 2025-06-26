@@ -27,6 +27,15 @@ By default `dataset_root` in `train.py`, we will search for the datasets in thes
             ├── Depths_raw
             ├── Rectified
         ├── dtu_test
+    ├── US3D
+        ├── train_OMA
+            ├── image
+            ├── height_map
+            ├── rpcs
+        ├── test_JAX
+            ├── image
+            ├── height_map
+            ├── rpcs
 ```
 
 # Create and activate conda environment
