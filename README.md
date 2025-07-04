@@ -2,6 +2,8 @@
 
 **SP-MVS: A Structure-Preserving Network for Edge-Aware Height Estimation from Multi-View Satellite Images**
 
+The US3D dataset and the full codes will be released after publication.
+
 ## download the WHU-TLC dataset
 
 You can get the WHU-TLC dataset from [**GPCV**](http://gpcv.whu.edu.cn/).
