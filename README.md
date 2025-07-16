@@ -4,7 +4,7 @@
 
 The US3D dataset and the full codes will be released after publication.
 
-### download the datasets (WHU-TLC, US3D, DTU and MVS3D)
+### 1. Download the datasets (WHU-TLC, US3D, DTU and MVS3D)
 
 To evaluate/train this method, you will need to download the required datasets and corresponding model weights. 
 * [WHU-TLC](https://github.com/WHU-GPCV/SatMVS/blob/main/WHU_TLC/readme.md) Please rename the "open_dataset" to "open_dataset_rpc".
@@ -51,7 +51,7 @@ By default `dataset_root` in `train.py`, we will search for the datasets in thes
 ```
 
 Notes: the tools for making US3D and MVS3D will be provided later after paper is published.
-### Create and activate conda environment
+### 2. Create and activate conda environment
 conda create -n MVS python=3.7 -y
 conda activate MVS
 
@@ -66,13 +66,13 @@ pip install gdal==2.4.2.* \
             tensorboardX
 
 
-### Train
+### 3. Train
 for example:Train on WHU-TLC dataset using RPC warping:
 
 `python train.py --mode="train" --model="casmvs" --geo_model="rpc" --dataset_root=[Your dataset root] --batch_size=1 --min_interval=[GSD(resolution of the image)] --gpu_id="0"`
 
 
-### Predict
+### 4. Predict
 
 `python predict.py --model="casmvs" --geo_model="rpc" --dataset_root=[Your dataset] --loadckpt=[A checkpoint]`
 
