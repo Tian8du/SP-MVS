@@ -4,7 +4,7 @@
 
 The US3D dataset and the full codes will be released after publication.
 
-### 1. Download the datasets (WHU-TLC, US3D, DTU and MVS3D)
+### 1. Download the datasets (WHU-TLC, US3D-MVS, DTU and MVS3D)
 
 To evaluate/train this method, you will need to download the required datasets and corresponding model weights. 
 * [WHU-TLC](https://github.com/WHU-GPCV/SatMVS/blob/main/WHU_TLC/readme.md) Please rename the "open_dataset" to "open_dataset_rpc".
@@ -13,13 +13,16 @@ To evaluate/train this method, you will need to download the required datasets a
 * [DTU (Depths raw)](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/cascade-stereo/CasMVSNet/dtu_data/dtu_train_hr/Depths_raw.zip)
 * [DTU (testing data)](https://drive.google.com/file/d/1rX0EXlUL4prRxrRu2DgLJv2j7-tpUD4D/view?usp=sharing)
 * [Model SPMVS](https://drive.google.com/file/d/1b8i1u69_9yMPJyqGcuTkCocyg0rVg4P3/view?usp=sharing).
-You can get the WHU-TLC dataset from [**GPCV**](http://gpcv.whu.edu.cn/).
+
+You can get the WHU-TLC dataset from [**GPCV**](http://gpcv.whu.edu.cn/). 
+
+US3D-MVS and MVS3D can be acquired by my MVS tool  [Sat-MVS-Dataset](https://github.com/Tian8du/Sat-MVS-Dataset).
 
 By default `dataset_root` in `train.py`, we will search for the datasets in these locations. You can create symbolic links to wherever the datasets were downloaded in the `data` folder
 
 ```Shell
 ├── data
-    ├── TLC
+    ├── WHU-TLC
         ├── Open
         ├── open_dataset_pinhole
         ├── open_dataset_rpc
@@ -30,7 +33,7 @@ By default `dataset_root` in `train.py`, we will search for the datasets in thes
             ├── Depths_raw
             ├── Rectified
         ├── dtu_test
-    ├── US3D
+    ├── US3D-MVS
         ├── train_OMA
             ├── image
             ├── height_map
