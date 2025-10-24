@@ -1,6 +1,29 @@
 # SP-MVS
 
 **SP-MVS: A Structure-Preserving Network for Edge-Aware Height Estimation from Multi-View Satellite Images**
+> 🛰️ **Publication Notice**  
+> This work has been **accepted for publication** in the  
+> *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS)*,  
+> titled:  
+> **“A Structure-Preserving Multi-View Stereo Network for Edge-Aware Height Estimation from Satellite Images”**.  
+>  
+> The paper will appear as a **Regular Paper** in an upcoming JSTARS issue.  
+> All datasets (US3D, WHU-TLC, MVS3D) and the full source code will be publicly released once the paper is officially online on IEEE Xplore.
+
+---
+
+### Citation
+If you find this repository helpful in your research, please consider citing our paper:
+
+```bibtex
+@article{liu2025spmvs,
+  title={A Structure-Preserving Multi-View Stereo Network for Edge-Aware Height Estimation from Satellite Images},
+  author={Liu, Chen and Jiang, Yonghua},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year={2025},
+  note={accepted for publication}
+}
+
 
 The US3D dataset and the full codes will be released after publication.
 
