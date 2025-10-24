@@ -12,17 +12,7 @@
 
 ---
 
-### Citation
-If you find this repository helpful in your research, please consider citing our paper:
 
-```bibtex
-@article{liu2025spmvs,
-  title={A Structure-Preserving Multi-View Stereo Network for Edge-Aware Height Estimation from Satellite Images},
-  author={Liu, Chen and Jiang, Yonghua},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  year={2025},
-  note={accepted for publication}
-}
 
 
 The US3D dataset and the full codes will be released after publication.
@@ -103,6 +93,18 @@ for example:Train on WHU-TLC dataset using RPC warping:
 This project is heavily inspired by the paper “Surface Depth Estimation From Multiview Stereo Satellite Images With Distribution Contrast Network.” Another significant breakthrough that has greatly influenced this work is SatMVSF developed by the GPCV group at Wuhan University.
 
 A substantial portion of the code in this repository is adapted from the implementations described in their work. I sincerely appreciate the authors’ valuable contributions to the field, which have significantly facilitated and accelerated my research.
+
+### Citation
+If you find this repository helpful in your research, please consider citing our paper:
+
+```bibtex
+@article{liu2025spmvs,
+  title={A Structure-Preserving Multi-View Stereo Network for Edge-Aware Height Estimation from Satellite Images},
+  author={Liu, Chen and Jiang, Yonghua},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year={2025},
+  note={accepted for publication}
+}
 
 If you find this project useful, please consider citing the original papers.
 
