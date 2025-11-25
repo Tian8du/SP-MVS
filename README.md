@@ -7,8 +7,8 @@
 > titled:  
 > **“A Structure-Preserving Multi-View Stereo Network for Edge-Aware Height Estimation from Satellite Images”**.  
 >  
-> The paper will appear as a **Regular Paper** in an upcoming JSTARS issue.  
-> All datasets (US3D, WHU-TLC, MVS3D) and the full source code will be publicly released once the paper is officially online on IEEE Xplore.
+> The paper appears as a **Regular Paper** in an upcoming JSTARS issue.  
+> All datasets (US3D, WHU-TLC, MVS3D) and the full source code have been publicly released.
 
 ---
 
@@ -98,14 +98,13 @@ A substantial portion of the code in this repository is adapted from the impleme
 If you find this repository helpful in your research, please consider citing our paper:
 
 ```bibtex
-@article{liu2025spmvs,
-  title={A Structure-Preserving Multi-View Stereo Network for Edge-Aware Height Estimation from Satellite Images},
-  author={Liu, Chen and Jiang, Yonghua},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+@ARTICLE{11218776,
+  author={Liu, Chen and Jiang, Yonghua and Wang, Dong and Shen, Xin and Wang, Yunming and Zhang, Guangbin},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={A Structure-Preserving Multiview Stereo Network for Edge-Aware Height Estimation From Satellite Images}, 
   year={2025},
-  note={accepted for publication}
-}
-
-If you find this project useful, please consider citing the original papers.
-
-
+  volume={18},
+  number={},
+  pages={28782-28796},
+  keywords={Satellite images;Three-dimensional displays;Feature extraction;Computational modeling;Accuracy;Image edge detection;Transformers;Estimation;Costs;Satellite broadcasting;3-D reconstruction;deep learning;multiview stereo (MVS);remote sensing},
+  doi={10.1109/JSTARS.2025.3626009}}
